@@ -1,0 +1,544 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Roboto Slab', serif;
+
+*/
+.header{
+	background-image: url("../img/golden-bg.jpg");
+    background-size: 100%;
+	
+}
+
+.container{
+	width: 1040px;
+	margin: 0 auto;
+}
+
+.header .navbar .logo{
+	float: left;
+	margin-top: 45px;
+	margin-left: 60px;
+}
+
+.header .navbar .menu{
+	float: right;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	margin-top: 50px;
+}
+
+.header .navbar .menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.header .navbar .menu ul li{
+	display: inline-block;
+	margin: 0 25px;
+}
+
+.header .navbar ul li a{
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.header .home{
+	text-align: center;
+	color: #FFF;
+	margin-top: 205px;
+	
+}
+
+.header .home h2{
+	font-family: 'Noto Serif', sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.header .home h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 75px;
+	text-transform: uppercase;
+}
+
+.header .home a{
+	background-color: #fed136;
+	color: #FFF;
+	text-transform: uppercase;
+	padding: 20px 50px;
+	border-radius: 3px;
+	text-decoration: none;
+	
+}
+
+/* ---------------------SERVICES-------------------- */
+
+.services{
+	padding: 120px 0;
+}
+
+.services .section_title{
+	text-align: center;
+}
+
+.services .section_title h1{
+	font-family: 'Montserrat', sans-serif;
+	color: #222222;
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.services .section_title p{
+	font-family: 'Noto Serif', serif;
+	color: #777777;
+	font-style: italic;
+	font-size: 16px;
+}
+
+.services .services_boxs .serv{
+	width: 25%;
+	float: left;
+	text-align: center;
+	margin-top: 80px;
+    margin-right: 10px; 
+	margin-left: 60px;
+
+		
+}
+
+.services .services_boxs .serv i{
+	font-size: 40px;
+	color: #fed136;
+	border: 3px solid #fed136;
+	width: 70px;
+	height: 70px;
+	border-radius: 50px;
+	line-height: 70px;
+}
+
+.services .services_boxs .serv h1{
+	font-family: 'Montserrat', sans-serif;
+	color: #222222;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.services .services_boxs .serv p{
+	font-family: 'Roboto Slab', serif;
+	color: #777777;
+	font-size: 14px;
+}
+
+/* --------------------- Portfolio -------------------- */
+
+.portfolio{
+	padding: 120px 0;
+	background-color: #f7f7f7;
+}
+
+.portfolio .section_title{
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.portfolio .section_title h1{
+	font-family: 'Montserrat', sans-serif;
+	color: #222222;
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.portfolio .section_title p{
+	font-family: 'Noto Serif', serif;
+	color: #777777;
+	font-style: italic;
+	font-size: 16px;	
+}
+/*_____________________row1__________________________*/
+.portfolio .row1{
+	margin-bottom: 50px;
+}
+
+.portfolio .row1 .item{
+	width: 30%;
+	margin-left: 30px;
+	margin-right: 0px;
+	float: left;
+	background-color: #FFFF;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.portfolio .row1 .item img{
+	width: 100%;
+	
+}
+
+.portfolio .row1 .item h1{
+	font-family: 'Montserrat', sans-serif;
+	color: #333333;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.portfolio .row1 .item span{
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+	font-style: italic;
+	color: #737373;
+}
+
+/*_____________________row2__________________________*/
+
+.portfolio .row2 .item{
+	width: 30%;
+	margin-left: 30px;
+	margin-right: auto;
+	float: left;
+	background-color: #FFFF;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.portfolio .row2 .item img{
+	width: 100%;
+	
+}
+
+.portfolio .row2 .item h1{
+	font-family: 'Montserrat', sans-serif;
+	color: #333333;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.portfolio .row2 .item span{
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+	font-style: italic;
+	color: #737373;
+}
+
+/* -------------------- About Us -------------------- */
+
+.about-us{
+	padding: 120px 0;
+}
+
+.about-us .section_title{
+	text-align: center;
+}
+
+.about-us .section_title h1{
+	font-family: 'Montserrat', sans-serif;
+	color: #222222;
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.about-us .section_title p{
+	font-family: 'Noto Serif', serif;
+	color: #777777;
+	font-style: italic;
+	font-size: 16px;
+	margin-bottom: 82px;
+}
+
+/* -------------------- info 1 et 3 -------------------- */
+
+.about-us .info1-3 .info-text{
+	float: left;
+	width: 40%;
+	margin-right: 36px;
+	text-align: right;
+}
+
+.about-us .info1-3 .info-text h1{
+	font-family: 'Montserrat', sans-serif;
+	color: #222222;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.about-us .info1-3 .info-text p{
+	font-family: 'Roboto Slab', serif;
+	color: #777777;
+	font-size: 14px;
+	width: 297px;
+	margin-left: 118px;
+	line-height: 1.4;			
+}
+
+
+.about-us .info1-3 .info-img{
+    float: left;
+	width: 50%;
+}
+
+.about-us .info1-3 .info-img img{
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	border: 7px solid #f1f1f1;
+	margin-bottom: 92px;
+}
+
+
+/* -------------------- info 2 et 4 -------------------- */
+
+.about-us .info2-4 .info-img{
+    float: left;
+	width: 20%;
+	margin-left: 450px;
+}
+
+.about-us .info2-4 .info-img img{
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	border: 7px solid #f1f1f1;
+	margin-bottom: 92px;
+}
+
+.about-us .info2-4 .info-text{
+	margin-bottom: 130px;
+}
+
+.about-us .info2-4 .info-text h1{
+	font-family: 'Montserrat', sans-serif;
+	color: #222222;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.about-us .info2-4 .info-text p{
+	font-family: 'Roboto Slab', serif;
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.4;
+	
+}
+
+
+/* --------------------- OUR AMAZING TEAM -------------------- */
+
+.OurAmazingTeam{
+	padding: 60px 0;
+	background-color: #f7f7f7;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	color: #777777;
+	font-size: 16px;
+}
+
+.OurAmazingTeam .section_title{
+	
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.OurAmazingTeam .section_title h1{
+	padding: 40px 0;
+	font-family: 'Montserrat', sans-serif;
+	color: #222222;
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.OurAmazingTeam .section_title p{
+	font-family: 'Noto Serif', serif;
+	color: #777777;
+	font-style: italic;
+	font-size: 16px;	
+}
+
+
+	
+/*_____________________ TEAM __________________________*/
+
+.OurAmazingTeam .team{
+	margin-bottom: 0px;
+}
+
+.OurAmazingTeam .team .item{
+	width: 30%;
+	margin-left: 30px;
+	float: left;
+	background-color: #f7f7f7;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.OurAmazingTeam .team .item img{
+	width: 60%;
+/*	width: 170px;
+	height: 170px;*/
+	border-radius: 50%;
+	border: 7px solid #f1f1f1;	
+}
+
+.OurAmazingTeam .team .item h1{
+	font-family: 'Montserrat', sans-serif;
+	color: #222222;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.OurAmazingTeam .team .item span{
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+	font-style: italic;
+	color: #777777;
+}
+
+
+
+/* --------------------- Social -------------------- */
+
+.services2{
+	padding: 20px 0;
+}
+.services2 .services_boxs .serv{
+	text-align: center;
+	width:  %;
+	float: left; 
+	margin-top:  0px;
+    margin-right: 0px; 
+	margin-left: 0px;	
+}
+
+.services2 .services_boxs .serv i{
+	font-size: 20px;
+	color: #212121;
+	border: 4px solid #212121;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	line-height: 40px;
+	margin-left: 10px;	
+}
+/* --------------------- End Social -------------------- */
+
+/* --------------------- LOGO -------------------- */
+
+.logo2{
+	padding: 50px 0px;
+	margin-left: 180px;
+	
+}
+
+.logo2 .marque{
+	float: left; 
+	margin-left: 40px;
+	padding-bottom: 50px;
+}
+
+/* -------------------------- CONTACT US ------------------------ */
+
+.contact_us{
+	background-image: url("../img/Map%20Image.png");
+/* ----    background-size: 100%;  ---- */
+	 
+	
+	background-color: #212121;
+	width: 1265px;
+}
+
+.container-titles{
+	text-align: center;
+	padding: 60px 0px;
+}
+
+.contact_us .title{
+	font-family: 'Montserrat', sans-serif;
+	margin: 30px auto;
+	font-size: 19px;
+	font-weight: 400;
+	color: #f7f7f7;		
+}
+
+.contact_us .subtitle{
+	font-size: 16px;
+	font-family: 'Noto Serif', serif;
+	color: #777777;
+	font-style: italic;	
+}
+
+.contact_us .forme{
+	float: left;
+	margin-left: 0px;
+	margin-right: 65PX;	
+}	
+	
+ .forme01{
+	margin-bottom: 25px;
+}
+
+.send{
+	text-align: center;
+	margin-right: 50px;
+	padding: 80px 0;
+}
+
+.send_message a{
+	
+	
+	background-color: #fed136;
+	color: #FFF;
+	text-transform: uppercase;
+	padding: 20px 50px;
+	border-radius: 3px;
+	text-decoration: none;	
+	
+}
+
+/* ----------------------social footer ------------------------ */
+
+.bottom{
+	padding: 30px 0;
+    background-color: #FFFFFF;	
+	
+}
+.services3 .services_boxs .serv1{
+	margin-left: 455px;
+}
+
+.services3 .services_boxs .serv img{
+	float: left;
+
+}
+
+.services3 .services_boxs .serv1 i{
+	font-size: 30px;
+	color: #212121;
+	width: 35px;
+	height: 35px;
+	border-radius: 50px;
+	line-height: 1px; 
+}
+
+/* ---------------------- Background end ------------------------ */
+
+.background_end{
+	padding: 500px 0;
+    background-color: #212121;	
+}
+
+
+
